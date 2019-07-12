@@ -7,13 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a277e8f3-7306-432d-bc2e-57b1cfebe777" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/classes/com/luv2code/springdemo/mvc/HelloWorldController.class" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/classes/com/luv2code/springdemo/mvc/HelloWorldController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/spring-mvc-demo/com/luv2code/springdemo/mvc/HelloWorldController.class" afterPath="$PROJECT_DIR$/out/production/spring-mvc-demo/com/luv2code/springdemo/mvc/HelloWorldController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/classes/com/luv2code/springdemo/mvc/Student.class" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/classes/com/luv2code/springdemo/mvc/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/spring-mvc-demo/com/luv2code/springdemo/mvc/Student.class" afterPath="$PROJECT_DIR$/out/production/spring-mvc-demo/com/luv2code/springdemo/mvc/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_demo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_demo_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/main-menu.jsp" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/main-menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/HelloWorldController.java" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/HelloWorldController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/student-confirmation.jsp" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/student-confirmation.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/student-form.jsp" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/student-form.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-demo.iml" afterPath="$PROJECT_DIR$/spring-mvc-demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/Student.java" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,22 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloWorldController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/HelloWorldController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spring-mvc-demo-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,7 +51,7 @@
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="305">
               <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,35 +63,42 @@
       <file leaf-file-name="student-form.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="330">
+              <caret line="34" column="75" lean-forward="false" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="795">
+              <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
               <folding>
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="student-confirmation.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="student-confirmation.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -128,6 +122,9 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -136,12 +133,12 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp" />
         <option value="$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/countries.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" />
         <option value="$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/StudentController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" />
         <option value="$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/Student.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" />
       </list>
     </option>
   </component>
@@ -164,6 +161,12 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
@@ -263,13 +266,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v9.2.0/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -429,12 +435,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562779279366</updated>
       <workItem from="1562779283327" duration="282000" />
-      <workItem from="1562779581739" duration="8550000" />
+      <workItem from="1562779581739" duration="10460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8832000" />
+    <option name="totallyTimeSpent" value="10742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="23" width="1320" height="797" extended-state="0" />
@@ -443,7 +449,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5031299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -563,22 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/countries.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -595,9 +585,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="305">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -605,26 +603,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="34" column="75" lean-forward="false" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luv2code/springdemo/mvc/Student.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +695,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|spring-mvc-demo</last-edited>
+          <last-edited>spring-mvc-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -706,6 +719,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
