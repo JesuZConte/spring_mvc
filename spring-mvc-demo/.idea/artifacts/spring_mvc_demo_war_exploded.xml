@@ -13,6 +13,7 @@
           <element id="library" level="project" name="jstl:jstl:1.2" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="spring-mvc-demo/web/Web2" />
     </root>
   </artifact>
 </component>
